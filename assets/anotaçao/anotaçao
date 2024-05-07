@@ -1,0 +1,168 @@
+Montserrat: classe CSS para um estilo variável
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Open Sans: classe CSS para um estilo variável
+
+// <uniquifier>: Use um nome de classe único e descritivo 
+// <weight>: Use um valor de 300 a 800 .open-sans-<uniquifier> { font-family: "Open Sans", sans-serif; dimensionamento óptico da fonte: automático; peso da fonte: <peso>; estilo de fonte: normal; configurações de variação de fonte: "largura" 100; }
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.main-bg{
+  background-image: url();
+  background-size: cover;
+  background-position: center center;
+  color:var(--white-color);
+}
+-----------------------------------------------------------------------------
+width="80" height="40"
+
+.menu ul li a:: ::after{
+  content: '';
+  position: absolute;
+  bottom: 1rem;
+  left: 100%;
+  width: 0;
+  height: 0.2rem;
+  background: crimson;
+  transition: all 300ms ease-in-out;
+}
+
+--------------------------------------------------------
+
+<section class="white-bg section">
+        <div class="main-content">
+            <h1> oi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto a porro itaque omnis odio, aspernatur, illo minima voluptatum est, tempore voluptatem obcaecati eius! Sequi excepturi a dignissimos tempora provident.</p>
+        </div>
+        
+    </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ------------------------------------------------------------------------------------------------------
+      HTML
+    <div class=" historia-content">
+            <h3>Historia Dos Jogos Olimpicos</h3>
+            <p>
+                Os Jogos Olímpicos têm uma história rica que remonta à Grécia Antiga. Acredita-se que os primeiros Jogos Olímpicos tenham ocorrido em 776 a.C., na cidade de Olímpia, na Grécia, em homenagem ao deus Zeus. Inicialmente, os Jogos eram uma celebração religiosa e atlética, que incluía competições como corridas, lutas, lançamento de dardo e disco, entre outros.
+            </p>
+            <p>
+                Os Jogos Olímpicos Antigos eram realizados de quatro em quatro anos e eram parte de um festival de quatro dias dedicado a Zeus. Durante esse período, as guerras eram suspensas, permitindo que atletas e espectadores viajassem em segurança para Olímpia.
+            </p>
+            <p>
+                Esses Jogos antigos continuaram por mais de mil anos, até que foram abolidos pelo imperador romano Teodósio I, em 393 d.C., como parte de uma campanha contra práticas pagãs.
+            </p>
+            <p>
+                A tradição dos Jogos Olímpicos foi revivida nos tempos modernos. O Barão Pierre de Coubertin, um educador francês, é considerado o pai dos Jogos Olímpicos modernos. Inspirado pelos ideais de competição saudável e educação atlética, ele fundou o Comitê Olímpico Internacional (COI) em 1894. O primeiro Jogos Olímpicos moderno foi realizado em Atenas, Grécia, em 1896, com a participação de 241 atletas de 14 países.
+            </p>
+            <p>
+                Desde então, os Jogos Olímpicos modernos cresceram em tamanho e escopo, tornando-se o maior evento esportivo do mundo. Eles são realizados de quatro em quatro anos, alternando entre os Jogos Olímpicos de Verão e de Inverno, e atraem milhares de atletas de todo o mundo para competir em uma variedade de esportes. Os Jogos Olímpicos modernos são mais do que apenas uma competição esportiva; eles representam um símbolo de união e paz entre as nações, promovendo o espírito esportivo e a camaradagem global.
+            </p>
+        </div>
+        
+    </section> 
+
+    CSS
+
+    .historia-content {
+      max-width: 120rem;
+      margin: 0 auto;
+      padding: var(--gap);
+      
+      p {
+          margin-bottom: 10px;
+      }
+  
+      h3 {
+          justify-content: space-between;
+          margin-bottom: 30px;
+          font-size: 3em;
+          margin-bottom: 0;
+          padding: 0;
+      
+      }
+  
+  }
+
+  ------------------------------------------------------------
+  
+  .main-tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 91vh;
+    background:url(https://www.olimpiadatododia.com.br/wp-content/uploads/2019/12/foto-medalhas-1536x922.jpg);
+    background-size:cover;
+    background-position: center;
+}
+    
+
+
+--------------------------------------------------------------------------------------------------------------------
+.content-tabela{
+    border-collapse: collapse ;
+    margin: 25px 0;
+    font-size: 2rem;
+    min-width: 400px;
+
+}
+.content-tabela thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-tabela th, .content-tabela td{
+    padding: 12px 15px;
+}
+
+.content-tabela tbody tr{
+    border-bottom: 1px solid #dddd ;
+}
+.content-tabela tbody tr:nth-of-type(even){
+    background-color: ;
+}
+
+-----------------------------------------------------------------------
+background-image: url(https://www.olimpiadatododia.com.br/wp-content/uploads/2020/07/aa_ouro.jpg);
